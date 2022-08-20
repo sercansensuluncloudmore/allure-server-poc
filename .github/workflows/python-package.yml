@@ -24,4 +24,4 @@ jobs:
           pipenv run python3 -m playwright install    
     - name: Test with pytest
       run: |
-        pytest
+        pipenv run pytest
