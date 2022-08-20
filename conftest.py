@@ -81,5 +81,5 @@ def send_allure_report():
 @pytest.hookimpl(trylast=True)
 def pytest_sessionfinish(session, exitstatus):
     print('\n------ POST allure reports. ------')
-    send_allure_report()
+    # send_allure_report()
 
